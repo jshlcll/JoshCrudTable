@@ -1,0 +1,222 @@
+    body {
+        background-color:#efe7da;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+    }
+
+    .login-container {
+        width: 300px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color:#f6f5ec;
+        border-radius: 10px;
+        box-shadow: 0 0 10  px rgba(0,0,0,0.1);
+    }
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #75975e;
+    }
+
+    .login-container label {
+        text-align: left;
+        width: 100%;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: calc(100% - 5px);
+        padding: 10px 20px; 
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+    .login-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #75975e ;
+        border: none;
+        border-radius: 15px;
+        color: #f6f5ec;
+        cursor: pointer;
+    }
+
+    .login-container input[type="text"]::placeholder,
+    .login-container input[type="password"]::placeholder {
+        color: black;
+    }
+
+    .login-container input[type="text"]:focus::placeholder,
+    .login-container input[type="password"]:focus::placeholder {
+        color: transparent;
+    }
+
+    .separator {
+        width: 100%; 
+        margin-top: 20px; 
+        margin-bottom: 20px;
+        border: none;
+        border-top: 2px solid black; 
+    }
+
+    .forgot-password {
+        text-align: center; 
+        margin-top: 10px; 
+    }
+
+    .forgot-password a {
+        color: #75975e;
+        text-decoration: none;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center;
+        padding: 30px;
+        background-color: #c9cbb2;
+    }
+
+    nav ul {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+    }
+
+    nav li {
+        margin-left: 10px;
+        margin-right: 40px; 
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #75975e;
+        transition: color  0.3s;
+        font-size: 20px;
+    }
+
+    nav li a:hover {
+        color: #fff;
+    }
+
+    main {
+        padding: 100px;
+    }
+
+    #backButton,
+    #forwardButton {
+        margin-right: 50px;
+        font-size: 20px;
+    }
+
+    #nav-arrows {
+        margin-right: auto; 
+        margin-right: 950px;
+    }
+
+    body.home-page {
+        background-color:#efe7da;
+    }
+
+    .custom-table {
+        border-collapse: separate;
+        border-style: solid;
+        width: 100%;
+        background-color: #f6f5ec;
+        border:  3px solid black;
+    }
+
+    .custom-table td, .custom-table th {
+        border: 3px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        color: #75975e;
+        padding-bottom: 30px;
+    }
+
+    .green-row {
+        background-color: #75975e;
+    }
+
+    .edit-btn {
+        color: green;
+    }
+
+    .delete-btn {
+        color:  red;
+    }
+
+    .edit-btn-container {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 10px;
+        background-color: green;
+    }
+
+    .delete-btn-container {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 10px;
+        background-color: red;
+    }
+
+    .edit-btn,
+    .delete-btn {
+        color: white;
+        text-decoration: none;
+    }
+
+    .about-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-top: 180px;
+        background-color: #f6f5ec;
+        border-radius: 10px;
+    }
+
+    .about-content {
+        padding: 20px;
+        max-width: 400px;
+        margin: auto;
+    }
+    
+    h1 {
+        color: #75975e;
+        margin: auto; 
+        margin-bottom: 60px; 
+    }
+
+    .contact-container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+        background-color: #f6f5ec;
+        border-radius: 10px ;
+    }
+
+
+.contact-content { 
+    padding: 10px;
+    margin: auto; 
+    border-radius: 10px;
+    
+}
+
+h1 {
+    color: #75975e;
+    margin-bottom: 20px;
+}
